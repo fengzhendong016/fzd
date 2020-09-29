@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="巨匠，巨匠集团，巨匠建设集团股份有限公司，巨匠建设，浙江巨匠控股集团有限公司，
+  建筑工程，施工总承包，建筑工程施工总承包特级，建筑设计行业甲级，" />
+  <meta name="description" content='巨匠建设集团股份有限公司（简称"巨匠建设"）是浙江巨匠控股集团有限公司
+  旗下以建筑工程施工总承包为主营业务的大型集团企业，始创于1965年，香港H股上市（企业股票代码HK1459）。
+  企业具有建筑工程施工总承包特级、建筑设计行业甲级、古建筑工程专业承包壹级、建筑装修装饰工程专业承包壹级、
+  消防设施工程专业承包壹级、地基基础工程专业承包壹级、机电工程施工总承包贰级、钢结构工程专业承包贰级、建筑幕墙工程专业承包贰级、
+  起重设备安装工程专业承包贰级和境外工程承包等资格。' />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>巨匠建设</title>
+  <link rel="stylesheet/less" type="text/css" href="less/investor.less" />
+  <script src="js/less.js" type="text/javascript" charset="utf-8"></script>
+  <style>
+    #container {
+      width: 100%;
+      height: 320px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header active -->
+  <header id="header"></header>
+  <!-- header  end  -->
+
+  <!-- big img active -->
+  <section class="banner">
+    <img src="images/2.jpg" />
+  </section>
+  <!-- big img  end   -->
+
+  <!-- submenu active -->
+  <!-- <div id="submenu"></div> -->
+  <div class="submenu">
+    <div class="container">
+      <ul>
+        <li class="active"><a href="##">公司治理<br>Company Management</a></li>
+        <li><a href="##">公告通函<br>Announcement</a></li>
+        <li><a href="##">股票信息<br>Stock Information</a></li>
+        <li><a href="##">财务资料<br>Financial Document</a></li>
+        <li><a href="##">招股文件<br>Prospectus Supplement</a></li>
+        <li><a href="##">联系我们<br>Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- submenu  end -->
+
+  <!-- investor_content active -->
+  <main class="content_main">
+    <div class="container">
+      <div class="">
+        <h2>公司治理 / <span>Company Management</span></h2>
+        <ul>
+          <li><i>•</i><a href="##">2020 INTERIM REPORT</a><span>2020-09-23</span></li>
+          <li><i>•</i><a href="##">2021 INTERIM REPORT</a><span>2020-10-24</span></li>
+          <li><i>•</i><a href="##">2022 INTERIM REPORT</a><span>2020-11-25</span></li>
+          <li><i>•</i><a href="##">2023 INTERIM REPORT</a><span>2020-12-26</span></li>
+          <li><i>•</i><a href="##">2024 INTERIM REPORT</a><span>2020-01-27</span></li>
+          <li><i>•</i><a href="##">2025 INTERIM REPORT</a><span>2020-02-28</span></li>
+        </ul>
+      </div>
+      <div class=" block">
+        <h2>联系我们 / <span>Contact Us</span></h2>
+        <div id="container"></div>
+      </div>
+    </div>
+  </main>
+  <!-- investor_content end -->
+
+
+  <!-- footer active -->
+  <footer id="footer"></footer>
+  <!-- footer end -->
+
+
+  <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/jquery.nicescroll.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/utils.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/page.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=vidt7hDcNRhrtbI3CQjXn4IiS7RKnp9s"></script>
+  <script>
+    $(function () {
+      var map = new BMap.Map("container");
+      // 设置中心点坐标
+      // 这里我们使用BMapGL命名空间下的Point类来创建一个坐标点。Point类描述了一个地理坐标点，其中116.404表示经度，39.915表示纬度。（为天安门坐标）
+      var point = new BMap.Point(116.404, 39.915);
+      // 地图初始化，同时设置地图展示级别  
+      map.centerAndZoom(point, 15);
+      window.setTimeout(function () {
+        map.panTo(new BMap.Point(116.409, 39.918));
+      }, 2000);
+    })
+  </script>
+</body>
+
+</html>
