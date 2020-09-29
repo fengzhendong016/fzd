@@ -1,0 +1,104 @@
+{
+	"state": "success",
+	"group_industry": [
+		{
+			"imgSrc": "images/group_industry_1.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		},
+		{
+			"imgSrc": "images/group_industry_2.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		},
+		{
+			"imgSrc": "images/group_industry_3.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		},
+		{
+			"imgSrc": "images/group_industry_4.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		},
+		{
+			"imgSrc": "images/group_industry_5.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		},
+		{
+			"imgSrc": "images/group_industry_6.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		},
+		{
+			"imgSrc": "images/group_industry_7.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		},
+		{
+			"imgSrc": "images/group_industry_8.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		},
+		{
+			"imgSrc": "images/group_industry_9.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		},
+		{
+			"imgSrc": "images/group_industry_10.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		},
+		{
+			"imgSrc": "images/group_industry_11.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		},
+		{
+			"imgSrc": "images/group_industry_12.jpg",
+			"h4Text": "园林古建",
+			"spanText": "ANCIENT GARDEN",
+			"pText": "专业承包壹级资质，拥有中国工艺美术大师2人，中、高级工程师和工艺师60余人"
+		}
+	],
+	"superior": [
+		{
+			"imgSrc": "images/group_industry_1.jpg",
+			"pText": "原任中国建筑业协会副会长兼秘书长张鲁风考察指导工作"
+		},{
+			"imgSrc": "images/group_industry_2.jpg",
+			"pText": "中国施工企业管理协会常务副会长、国家工程质量奖审定委员会副主任李鸿庆考察指导工作"
+		},{
+			"imgSrc": "images/group_industry_3.jpg",
+			"pText": "中国建筑质量协会副会长兼秘书长靳玉英视察指导"
+		},{
+			"imgSrc": "images/group_industry_4.jpg",
+			"pText": "全国工商业联合会秘书长骆毓龙（中）考察指导工作"
+		},{
+			"imgSrc": "images/group_industry_5.jpg",
+			"pText": "原任驻厄瓜多尔大使王世雄大使莅临考察指导"
+		},{
+			"imgSrc": "images/group_industry_6.jpg",
+			"pText": "原任浙江省住房和城乡建设厅厅长谈月明考察指导工作"
+		},{
+			"imgSrc": "images/group_industry_7.jpg",
+			"pText": "共青团浙江省委书记周艳（左二）等一行莅临考察指导"
+		},{
+			"imgSrc": "images/group_industry_1.jpg",
+			"pText": "原任浙江省建设厅副厅长樊剑平莅临指导"
+		}
+	]
+}

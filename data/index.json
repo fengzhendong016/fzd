@@ -1,0 +1,146 @@
+{
+	"swiperList": [
+		[
+			{
+				"imgSrc": "images/business_office_1.jpg",
+				"h3Text": "振石大酒店工程"
+			},
+			{
+				"imgSrc": "images/business_office_2.jpg",
+				"h3Text": "振石控股集团总部大楼工程"
+			},
+			{
+				"imgSrc": "images/business_office_3.jpg",
+				"h3Text": "安徽绩溪政务中心工程"
+			},
+			{
+				"imgSrc": "images/business_office_4.jpg",
+				"h3Text": "中国玻纤技术中心211工程"
+			},
+			{
+				"imgSrc": "images/business_office_5.jpg",
+				"h3Text": "巨匠科技大厦工程"
+			},
+			{
+				"imgSrc": "images/business_office_4.jpg",
+				"h3Text": "中国玻纤技术中心211工程"
+			}
+		],
+		[
+			{
+				"imgSrc": "images/public_1.jpg",
+				"h3Text": "木心美术馆工程"
+			},
+			{
+				"imgSrc": "images/public_2.jpg",
+				"h3Text": "乌镇大剧院工程"
+			},
+			{
+				"imgSrc": "images/public_1.jpg",
+				"h3Text": "木心美术馆工程"
+			},
+			{
+				"imgSrc": "images/public_2.jpg",
+				"h3Text": "乌镇大剧院工程211工程"
+			}
+		],
+		[
+			{
+				"imgSrc": "images/house_6.jpg",
+				"h3Text": "浙江·桐乡 碧桂园梧桐华府工程"
+			},
+			{
+				"imgSrc": "images/house_1.jpg",
+				"h3Text": "浙江·乌镇 绿城雅园工程"
+			},
+			{
+				"imgSrc": "images/house_2.jpg",
+				"h3Text": "浙江·桐乡 巴黎都市住宅小区工程"
+			},
+			{
+				"imgSrc": "images/house_3.jpg",
+				"h3Text": "浙江·嘉兴 万科吴越工程"
+			},
+			{
+				"imgSrc": "images/house_4.jpg",
+				"h3Text": "河南·平顶山 建业桂园工程"
+			},
+			{
+				"imgSrc": "images/house_5.jpg",
+				"h3Text": "浙江·平湖 融创海悦府工程"
+			}
+		],
+		[
+			{
+				"imgSrc": "images/gardens_1.jpg",
+				"h3Text": "浙江·桐乡 市地下综合管廊工程"
+			},
+			{
+				"imgSrc": "images/gardens_2.jpg",
+				"h3Text": "北京·密云 古北口镇司马台水街工程"
+			},
+			{
+				"imgSrc": "images/gardens_3.jpg",
+				"h3Text": "浙江·桐乡 乌镇风情街工程"
+			},
+			{
+				"imgSrc": "images/gardens_4.jpg",
+				"h3Text": "浙江·桐乡 巨匠科技大厦室外景观工程"
+			},
+			{
+				"imgSrc": "images/gardens_5.jpg",
+				"h3Text": "浙江·桐乡 第二中学田径场工程"
+			}
+		],
+		[
+			{
+				"imgSrc": "images/scientific_research_1.jpg",
+				"h3Text": "矛盾中学工程"
+			},
+			{
+				"imgSrc": "images/scientific_research_2.jpg",
+				"h3Text": "桐乡文化中心工程"
+			},
+			{
+				"imgSrc": "images/scientific_research_3.jpg",
+				"h3Text": "嘉善国家级水上训练基地工程"
+			},
+			{
+				"imgSrc": "images/scientific_research_4.jpg",
+				"h3Text": "中国科学院地理信息与文化建筑产业基地"
+			}
+		],
+		[
+			{
+				"imgSrc": "images/ancient_1.jpg",
+				"h3Text": "山东·台儿庄 运河古城重建工程"
+			},
+			{
+				"imgSrc": "images/ancient_2.jpg",
+				"h3Text": "湖南·岳阳 汨罗市新市古镇滨江仿古街建设工程"
+			},
+			{
+				"imgSrc": "images/ancient_3.jpg",
+				"h3Text": "浙江·桐乡 乌镇昭明书院工程"
+			}
+		],
+		[
+			{
+				"imgSrc": "images/industry_1.jpg",
+				"h3Text": "年产三十万吨玻璃纤维智能制造生产线扩建工程"
+			},
+			{
+				"imgSrc": "images/industry_1.jpg",
+				"h3Text": "年产三十万吨玻璃纤维智能制造生产线扩建工程"
+			},
+			{
+				"imgSrc": "images/industry_1.jpg",
+				"h3Text": "年产三十万吨玻璃纤维智能制造生产线扩建工程"
+			},
+			{
+				"imgSrc": "images/industry_1.jpg",
+				"h3Text": "年产三十万吨玻璃纤维智能制造生产线扩建工程"
+			}
+		]
+	]
+}

@@ -1,0 +1,104 @@
+/************************** 公共类 开始 **************************/
+.browser(@prop, @value) {
+  -webkit-@{prop}: @value;
+  -moz-@{prop}: @value;
+  -ms-@{prop}: @value;
+  -o-@{prop}: @value;
+  @{prop}: @value;
+}
+
+/* 过渡和变形 */
+.ts(@prop) {
+  .browser(transition, @prop);
+}
+
+.tf(@prop) {
+  .browser(transform, @prop);
+}
+
+.td(@prop) {
+  .browser(transition-delay, @prop);
+}
+
+/* 动画 */
+.ani(@prop) {
+  .browser(animation, @prop);
+}
+
+.ani-delay(@prop) {
+  .browser(animation-delay, @prop);
+}
+
+/* 宽高 */
+.size(@width, @height) {
+  width: @width;
+  height: @height;
+}
+
+/* 正方形 */
+.square (@width) {
+  .size(@width, @width);
+}
+
+
+/* 定位位置上左 */
+.position(@top, @left) {
+  top: @top;
+  left: @left;
+}
+/* 定位位置下右 */
+.position-b(@bottom, @right) {
+  bottom: @bottom;
+  right: @right;
+}
+
+/* 透明度 */
+.opacity(@value) {
+  opacity: @value;
+  -moz-opacity: @value;
+}
+
+/* 头部按钮公共功能 */
+.mobile-btn(@class) {
+	.@{class} i {
+		display: block;
+		width: 30px;
+		height: 3px;
+		margin: 0 auto;
+		margin-top: 5px;
+		border-radius: 5px;
+		background: #2b2b2b;
+		transition: 0.4s ease-in-out 0.3s;
+		
+		i:nth-of-type(2) {
+			transition: 0.4s ease-in-out;
+		}
+	}
+}
+
+/* 查看更多按钮 */
+.build_btn(@class) {
+	.@{class} {
+		width: 100%;
+		margin-top: 50px;
+		transition: 0.8s ease-out 1.8s;
+		a {
+			display: block;
+			width: 290px;
+			height: 55px;
+			line-height: 55px;
+			margin: 0 auto;
+			text-align: center;
+			border: 1px solid lightgray;
+			font-size: 15px;
+			color: #939393;
+			background: white;
+			
+			&:hover {
+				color: white;
+				background: #c5252d;
+			}
+		}
+	}
+}
+/************************** 公共类 结束 **************************/

@@ -1,0 +1,313 @@
+@import "common.less";
+/********************* banner 开始 *********************/
+.banner {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-top: 120px;
+	img {
+		display: block;
+	}
+}
+/********************* banner 结束 *********************/
+
+/********************* main 开始 *********************/
+.content_main {
+	.container {
+		width: 80%;
+		max-width: 1400px;
+		/* 集团简介、领导致辞 */
+		.group_profile,
+		.leader{
+			font: 14px/25px 'Microsoft Yahei','Arial';
+			color: #888;
+			h2 {
+				margin: 0;
+				text-align: center;
+				padding-top: 50px;
+				font: 26px/30px 'Microsoft Yahei','Arial';
+				color: #333;
+				span{
+					font-family: Arial;
+				}
+			}
+			>div {
+				.flex;
+				padding: 60px 0;
+				.left {
+					width: 30%;
+					img {
+						display: block;
+						width: 100%;
+					}
+				}
+				.right {
+					width: 68%;
+					margin-left: 2%;
+					p {
+						text-indent: 28px;
+						margin-bottom: 15px;
+						color: #666;
+					}
+				}
+			}
+		}
+		/* 集团产业 */
+		.group_industry {
+			h2 {
+				margin: 0;
+				text-align: center;
+				padding-top: 50px;
+				font: 26px/30px 'Microsoft Yahei','Arial';
+				color: #333;
+			}
+			>div {
+				padding-bottom: 50px;
+				padding-top: 50px;
+				margin: auto;
+				color: #666;
+				line-height: 1.8;
+				ul {
+					.flex;
+					flex-wrap: wrap;
+					width: 100%;
+					min-height: 500px;
+					overflow: hidden;
+					margin-top: 20px;
+					color: #666;
+					line-height: 30px;
+					li {
+						width: 25%;
+						text-align: center;
+						margin-bottom: 30px;
+						
+						div {
+							width: 70%;
+							height: auto;
+							border-radius: 70%;
+							overflow: hidden;
+							border: 5px solid #d33836;
+							margin: 0px auto;
+							img {
+								display: block;
+							}
+						}
+						h4 {
+							font: bold 16px/20px 'Microsoft Yahei';
+							margin-top: 20px;
+							color: #333;
+						}
+						span {
+							font: normal 11px/20px 'Arial';
+							color: #999;
+						}
+						p {
+							padding: 0 10px;
+							min-height: 40px;
+							font: normal 12px/20px 'Microsoft Yahei';
+						}
+					}
+				}
+			}
+		}
+		.leader .right strong {
+				color: #333;
+				font-size: 16px;
+				font-weight: 500;
+		}
+		/* 上级关怀 */
+		.superior {
+			h2 {
+				margin: 0;
+				text-align: center;
+				padding-top: 50px;
+				font: 26px/30px 'Microsoft Yahei','Arial';
+				color: #333;
+				span {
+					font-family: Arial;
+				}
+			}
+			>div:first-of-type {
+				padding: 30px 0;
+				ul {
+					.flex;
+					flex-wrap: wrap;
+					li {
+						width: 23.5%;
+						margin-right: 2%;
+						margin-bottom: 30px;
+						background: #f7f7f7;
+						
+						&:nth-of-type(4n) {
+							margin-right: 0px;
+						}
+						img {
+							display: block;
+							width: 100%;
+							height: 256px;
+						}
+						p {
+							font: 14px/24px 'Microsoft Yahei';
+							height: 48px;
+							overflow: hidden;
+							display: -webkit-box;
+							-webkit-line-clamp: 2;
+							-webkit-box-orient: vertical;
+							white-space: normal;
+							color: #666;
+							text-align: left;
+							margin: 10px;
+						}
+					}
+				}
+			}
+			
+		}
+		/* 发展历程 */
+		.licheng {
+			width: 100%;
+			height: 3200px;
+			background: url(../images/lc-back.jpg) no-repeat top center;
+			margin: 0 auto;
+			.white-line {
+				position: absolute;
+				top: 200px;
+				left: 0;
+				width: 100%;
+				height: 3200px;
+				background: url(../images/history-line.png) no-repeat center top;
+				z-index: 10;
+			}
+			.color-line {
+				position: absolute;
+				top: 200px;
+				left: 0;
+				width: 100%;
+				height: 410px;
+				background: url(../images/history-line-color.png) no-repeat center top;
+				z-index: 20;
+			}
+			.content {
+				width: 80%;
+				max-width: 1400px;
+				margin: 0 auto;
+				h2 {
+					margin: 0;
+					text-align: center;
+					padding-top: 50px;
+					font: 26px/30px 'Microsoft Yahei','Arial';
+					color: #333;
+					span {
+						font-family: Arial;
+					}
+				}
+				>div {
+					position: relative;
+					min-height: 3080px;
+					.doc {
+						li {
+							position: absolute;
+							width: 20px;
+							height: 20px;
+							border-radius: 20px;
+							background: #d6000f;
+							font: 20px/20px 'Arial';
+							color: #333;
+							text-indent: 30px;
+							white-space: nowrap;
+							z-index: 30;
+						}
+						.item-1 {top: 100px;left: 0px;}
+						.item-2 {top: 240px;left: 35px;}
+						.item-3 {top: 380px;left: 300px;}
+						.item-4 {top: 520px;left: 685px;}
+						.item-5 {top: 660px;left: 575px;}
+						.item-6 {top: 800px;left: 610px;}
+						.item-7 {top: 940px;left: 849px;}
+						.item-8 {top: 1080px;left: 631px;}
+						.item-9 {top: 1220px;left: 612px;}
+						.item-10 {top: 1354px;left: 890px;}
+						.item-11 {top: 1500px;left: 909px;}
+						.item-12 {top: 1620px;left: 587px;}
+						.item-13 {top: 1760px;left: 485px;}
+						.item-14 {top: 1900px;left: 620px;}
+						.item-15 {top: 2040px;left: 923px;}
+						.item-16 {top: 2180px;left: 991px;}
+						.item-17 {top: 2320px;left: 912px;}
+						.item-18 {top: 2460px;left: 245px;}
+						.item-19 {top: 2600px;left: 192px;}
+						.item-20 {top: 2740px;left: 267px;}
+						.item-21 {top: 2880px;left: 642px;}
+						
+					}
+					.course {
+						position: fixed;
+						top: 350px;
+						left: 500px;
+						z-index: 99;
+						animation: fadeInDown 1s;
+						display: none;
+						li {
+							display: none;
+							
+							.year {
+								float: left;
+								width: 200px;
+								height: 140px;
+								background: #d6000f;
+								font: 60px/140px 'Impact';
+								text-align: center;
+								color: #fff;
+							}
+							.text {
+								box-sizing: border-box;
+								float: left;
+								width: 540px;
+								height: 140px;
+								margin-left: 10px;
+								padding: 20px 10px 20px 20px;
+								background: #f0f0f0;
+								font: 14px/30px 'Arial','Microsoft Yahei';
+								img {
+									float: left;
+									margin-right: 10px;
+								}
+							}
+							&.current {
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}
+		/* 职能机构 */
+		.functional {
+			h2 {
+				margin: 0;
+				text-align: center;
+				padding-top: 50px;
+				font: 26px/30px 'Microsoft Yahei','Arial';
+				color: #333;
+				span {
+					font-family: Arial;
+				}
+			}
+			>div {
+				padding: 60px 0;
+				p {
+					margin-bottom: 15px;
+					color: #666;
+					img {
+						max-width: 100%;
+						height: auto;
+					}
+				}
+			}
+		}
+		> div {
+			display: none;
+		}
+	}
+}
+/********************* main 结束 *********************/

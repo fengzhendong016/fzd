@@ -1,0 +1,132 @@
+<div class="header">
+	<h1 class="logo"><a href="index.html"><img src="images/logo.png" /></a></h1>
+	<h1 class="logom"><a href="index.html"><img src="images/logo2.png" /></a></h1>
+	<div class="mobile1">
+		<i></i>
+		<i></i>
+		<i></i>
+	</div>
+	<nav class="nav">
+		<ul>
+			<li class="active"><a href="index.html"><span>首页</span> <span class="en">Home</span></a> </li>
+			<li><a href="group_profile.html"><span>集团概况</span> <span class="en">Profile</span></a> </li>
+			<li><a href=""><span>集团新闻</span> <span class="en">Group News</span></a> </li>
+			<li><a href=""><span>专业施工</span> <span class="en">Specialized Construction</span></a> </li>
+			<li><a href=""><span>品牌建设</span> <span class="en">Brand Building</span></a> </li>
+			<li><a href=""><span>招贤纳士</span> <span class="en">Human Resources</span></a> </li>
+			<li><a href=""><span>投资者关系</span> <span class="en">Investor Relations</span></a> </li>
+		</ul>
+	</nav>
+</div>
+
+<!-- 右侧按钮导航内容 开始 -->
+<div class="head-btn-nav">
+	<!-- 关闭按钮 -->
+	<div class="mobile">
+		<i></i>
+		<i></i>
+		<i></i>
+	</div>
+
+	<!-- 内容 -->
+	<div class="head_content">
+		<ul class="head_content_ul">
+			<li class="active">
+				<a href="##">集团概况 / Profile</a>
+				<div class="list_content2">
+					<span><a href="##">集团简介 / Group Profile</a></span>
+					<span><a href="##">集团产业 / Group Industry</a></span>
+					<span><a href="##">领导致辞 / Leader’s Oration</a></span>
+					<span><a href="##">上级关怀 / Superior Care</a></span>
+					<span><a href="##">发展历程 / Development History</a></span>
+					<span><a href="##">职能机构 / Functional Organization</a></span>
+				</div>
+			</li>
+			<li>
+				<a href="##">集团新闻 / Group News</a>
+				<div class="list_content2">
+					<span><a href="/news/qiye">企业新闻 / Company News</a></span>
+					<span><a href="/news/meiti">媒体报道 / Media Reports</a></span>
+				</div>
+			</li>
+			<li>
+				<a href="##">专业施工 / Specialized Construction</a>
+				<div class="list_content2">
+					<span><a href="/shigong/control">项目管控 / Project Management</a></span>
+					<span><a href="/shigong/zhiliang">质量 / Quality</a></span>
+					<span><a href="/shigong/anquan">安全 / Safety</a></span>
+					<span><a href="/shigong/BIM">科技创新 / Technology Innovation</a></span>
+				</div>
+			</li>
+			<li>
+				<a href="##">品牌建设 / Brand Building</a>
+				<div class="list_content2">
+					<span><a href="/products/International">品牌理念 / Brand Concept</a></span>
+					<span><a href="/products/American">业绩展示 / Performance Presentation</a></span>
+					<span><a href="/products/honor">企业荣誉 / Enterprise Honor</a></span>
+					<span><a href="/products/zeren">社会责任 / Society Responsibility</a></span>
+					<span><a href="/products/culture">企业文化 / Enterprise Culture</a></span>
+					<span><a href="/products/video">视频欣赏 / Video Appreciation</a></span>
+				</div>
+			</li>
+			<li>
+				<a href="##">招贤纳士 / Human Resources</a>
+				<div class="list_content2">
+					<span><a href="/hr/FeltPennants">人才理念 / Talent Concept</a></span>
+					<span><a href="/hr/FlagAccessories">招贤纳士 / Recruitment</a></span>
+				</div>
+			</li>
+			<li>
+				<a href="##">投资者关系 / Investor Relations</a>
+				<div class="list_content2">
+					<span><a href="/guanxi/zhili">公司治理 / Company Management</a></span>
+					<span><a href="/guanxi/gonggao">公告通函 / Announcement</a></span>
+					<span><a href="/guanxi/gupiao">股票信息 / Stock Information</a></span>
+					<span><a href="/guanxi/caiwu">财务资料 / Financial Document</a></span>
+					<span><a href="/guanxi/zhaogu">招股文件 / Prospectus Supplement</a></span>
+					<span><a href="/guanxi/contact">联系我们 / Contact Us</a></span>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- 右侧按钮导航内容 结束 -->
+
+
+
+
+<script type="text/javascript">
+	$(function() {
+		/*  
+			头部按钮
+		*/
+		$(".mobile1").click(function() {
+			toogleClassName(".head-btn-nav, .mobile")
+		});
+		$(".mobile").click(function() {
+			toogleClassName(".head-btn-nav, .mobile")
+
+		});
+		
+		/*  
+			窗口宽度大于990才会有切换类名操作 
+		*/
+		if($(window).width() > 990) {
+			$(".head_content_ul li").hover(function() {
+				$(this).addClass("active").siblings().removeClass("active")
+			})
+		}
+		
+		/* 
+			头部右侧按钮导航内容添加自定义滚动条
+		*/
+		$(".head_content_ul").niceScroll(base_scroll);
+
+		
+		
+		// 切换类名方法
+		function toogleClassName(selector) {
+			$(selector).toggleClass("active");
+		}
+	})
+</script>
