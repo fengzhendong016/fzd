@@ -63,6 +63,17 @@
 		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/page.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
+			window.onload = function() {
+				/*
+					首页跳本页面，自动点击对应元素
+				*/
+				setTimeout(function() {
+					let url = location.href;
+					let urlIndex = url.indexOf("?");
+					if (urlIndex !== -1) $(".submenu ul li").eq(url.slice(urlIndex + 1)).click();
+				}, 500)
+			}
+			
 			$(function() {
 				// 存数据的变量
 				let companyNewsList = [];
