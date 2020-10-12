@@ -41,19 +41,43 @@
 		<!-- submenu  end -->
 		
 		<!-- main active -->
-		<main class="content_main=-0-
+		<main class="content_main">
 			<div class="container">
-				<div class="control">
-					
+				<div class="control block">
+					<h2>项目管控 / <span>Project Management</span></h2>
+					<div>
+						<img src="images/specializ_img1.jpg" alt="">
+						<img src="images/specializ_img2.jpg" alt="">
+					</div>
 				</div>
 				<div class="quality">
-					
+					<h2>质量 / <span>Quality</span></h2>
+					<div>
+						<div><img src="images/quality_img1.jpg" alt=""></div>
+						<div><img src="images/quality_img2.jpg" alt=""></div>
+						<div><img src="images/quality_img3.jpg" alt=""></div>
+						<div><img src="images/quality_img4.jpg" alt=""></div>
+						<div><img src="images/quality_img5.jpg" alt=""></div>
+					</div>
 				</div>
-				<div class="">
-					
+				<div class="security">
+					<h2>安全 / <span>Safety</span></h2>
+					<div>
+						<div><img src="images/quality_img2.jpg" alt=""></div>
+						<div><img src="images/quality_img1.jpg" alt=""></div>
+						<div><img src="images/quality_img3.jpg" alt=""></div>
+						<div><img src="images/quality_img5.jpg" alt=""></div>
+						<div><img src="images/quality_img2.jpg" alt=""></div>
+					</div>
 				</div>
-				<div class="">
-					
+				<div class="innovation">
+					<h2>科技创新 / <span>Technology Innovation</span></h2>
+					<div>
+						<img src="images/innovation_img1.jpg" alt="">
+						<img src="images/innovation_img2.jpg" alt="">
+						<img src="images/innovation_img3.jpg" alt="">
+						<img src="images/innovation_img4.jpg" alt="">
+					</div>
 				</div>
 			</div>
 		</main>
@@ -72,7 +96,17 @@
 		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/page.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
-			
+			$(function() {
+				$(".submenu ul").on("click", "li", function() {
+					$(this).addClass("active").siblings().removeClass("active");
+					$(".content_main .container > div")
+						.eq($(this).index())
+						.addClass("block")
+						.siblings()
+						.removeClass("block");
+					$("html").niceScroll(base_scroll).resize(); //重新获取页面尺寸设置滚动条
+				});
+			})
 		</script>
 	</body>
 </html>

@@ -13,5 +13,55 @@
 /********************* banner 结束 *********************/
 
 /********************* main 开始 *********************/
-
+.content_main {
+	.container {
+		width: 80%;
+		max-width: 1400px;
+		>div {
+			display: none;
+			font: 14px/25px 'Microsoft Yahei','Arial';
+			color: #888;
+			h2 {
+				margin: 0;
+				text-align: center;
+				padding-top: 50px;
+				font: 26px/30px 'Microsoft Yahei','Arial';
+				color: #333;
+				span{
+					font-family: Arial;
+				}
+			}
+			> div {
+				padding: 60px 0;
+			}
+		}
+		.control > div,
+		.innovation > div{
+			.flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			img {
+				width: 50%;
+				.block;
+			}
+		}
+		.quality > div > div,
+		.security > div > div {
+			float: left;
+			margin: 4px;
+			border: 1px solid #eee;
+			box-sizing: content-box;
+			overflow: hidden;
+			position: relative;
+			height: 180px;
+			display: block;
+			img {
+				display: block;
+				width: auto;
+				height: 100%;
+			}
+		}
+	
+	}
+}
 /********************* main 结束 *********************/
