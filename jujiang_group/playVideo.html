@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.videoBox {
+				width: 890px;
+				height: 500px;
+				margin: 50px auto;
+			}
+			#video {
+				object-fit: cover; /* 保持原有尺寸比例 但部分内容可能被剪切 */
+			}
+		</style>
+	</head>
+	<body>
+		<div class="videoBox">
+			<video id="video" width="100%" height="100%" controls loop></video>
+		</div>
+		
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			const videoUrl = {
+					dream: "dream.mp4",
+					enterprise: "enterprise.webm",
+					propaganda: "propaganda.ogg"
+			}
+			window.onload = function() {
+				let url = location.href;
+				if (url.includes("?")) {
+					let videoName = url.slice(url.indexOf("?") + 1)
+					$.each(videoUrl, function(key, value) {
+						if(videoName === key) {
+							$("#video").html(`
+								<source src="video/${value}" type="video/${value.slice(value.indexOf(".") + 1)}"></source>
+								当前浏览器不支持 video直接播放，点击这里下载视频： <a href="##">下载视频</a>
+							`)
+						}
+					})
+				}
+			}
+		</script>
+	</body>
+</html>

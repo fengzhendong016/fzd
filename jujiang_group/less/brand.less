@@ -1,0 +1,188 @@
+@import "common.less";
+
+/********************* banner 开始 *********************/
+.banner {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-top: 120px;
+	img {
+		display: block;
+	}
+}
+/********************* banner 结束 *********************/
+
+/********************* submenu 开始 *********************/
+.submenu li:nth-of-type(2),
+.submenu li:nth-of-type(3){
+	position: relative;
+	
+	.subtree {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		margin: 0;
+		background-color: #e54441;
+		li {
+			padding: 0;
+			margin: 0;
+			a {
+				display: block;
+				color: #fff;
+				line-height: 25px;
+				font-size: 12px;
+				text-transform: uppercase;
+			}
+			&:hover {
+				background-color: #a34c50;
+			}
+		}
+		
+	}
+	&:hover .subtree {
+		display: block;
+	}
+}
+/********************* submenu 结束 *********************/
+
+/********************* main  开始  *********************/
+.content_main {
+	.container {
+		width: 80%;
+		max-width: 1400px;
+		>div {
+			display: none;
+			font: 14px/25px 'Microsoft Yahei','Arial';
+			color: #888;
+			h2 {
+				margin: 0;
+				text-align: center;
+				padding-top: 50px;
+				font: 26px/30px 'Microsoft Yahei','Arial';
+				color: #333;
+				span {
+					font-family: Arial;
+				}
+			}
+			> div {
+				padding: 60px 0;
+			}
+		}
+		.brand_concept {
+			img {
+				display: block;
+				margin: 0 auto;
+			}
+			dl {
+				padding: 30px 0;
+				border-bottom: 1px solid #ccc;
+				margin-bottom: 30px;
+				dt,
+				dd {
+					font-size: 14px;
+					line-height: 26px;
+					color: #333;
+				}
+				dd {
+					padding-left: 20px;
+					background: url(../images/brand_concept_bg.jpg) no-repeat 0 5px;
+				}
+			}
+		}
+		.performance {
+			> div {
+				> p {
+					text-align: center;
+					margin-bottom: 30px;
+					a {
+						display: inline-block;
+						margin: 0 5px;
+						padding: 4px 10px;
+						border-radius: 30px;
+						color: #333;
+						&.active,
+						&:hover {
+							background-color: #d6000f;
+							color: #fff;
+						}
+					}
+				}
+				ul {
+					.flex;
+					flex-wrap: wrap;
+					li{
+						box-sizing: border-box;
+						position: relative;	
+						width: 25%;
+						border: 1px solid #f3f3f3;
+						margin-right: -1px;
+						margin-bottom: -1px;
+						overflow: hidden;
+						a {
+							display: block;
+							img {
+								display: block;
+								width: 100%;
+								height: 250px;	
+							}
+							p {
+								display: none;
+								position: absolute;
+								bottom: 0;
+								left: 0;
+								width: 100%;
+								height: 50px;
+								line-height: 50px;
+								padding: 0;
+								background-color: rgba(0,0,0,0.3);
+								color: #fff;
+								text-indent: 12px;
+							}
+						}
+						&:hover p {
+							display: block;
+						}
+					}
+				} 
+			}
+		}
+		
+		
+		
+		
+		.video_appreciate {
+			ul {
+				.flex;
+				justify-content: space-between;
+				li {
+					a {
+						display: block;
+						img {
+							display: block;
+							width: 320px;
+							height: 220px;
+						}
+						span {
+							display: block;
+							line-height: 50px;
+							text-align: center;
+							background-color: #f7f7f7;
+							color: #666;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/********************* main  结束  *********************/
+
+
+
+
+
+
+
+

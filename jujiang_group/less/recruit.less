@@ -1,0 +1,95 @@
+@import "common.less";
+
+/********************* banner 开始 *********************/
+.banner {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-top: 120px;
+	img {
+		display: block;
+	}
+}
+/********************* banner 结束 *********************/
+
+/********************* main 开始 *********************/
+.content_main {
+	.container {
+		width: 80%;
+		max-width: 1400px;
+		>div {
+			display: none;
+			font: 14px/25px 'Microsoft Yahei','Arial';
+			color: #888;
+			h2 {
+				margin: 0;
+				text-align: center;
+				padding-top: 50px;
+				font: 26px/30px 'Microsoft Yahei','Arial';
+				color: #333;
+				span {
+					font-family: Arial;
+				}
+			}
+			> div {
+				padding: 60px 0;
+			}
+		}
+		.concept > div {
+			.flex;
+			justify-content: space-between;
+			
+			flex-wrap: wrap;
+			.left {
+				width: 60%;
+				p {
+					font-size: 16px;
+					line-height: 24px;
+					padding: 5px 0px;
+					text-indent: 32px;
+					margin-bottom: 0px;
+					span {
+						font-weight: bold;
+						color: #d6000f;
+					}
+				}
+				
+			}
+			.right {
+				width: 35%;
+				img {
+					.block;
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			.imgbox {
+				.flex;
+				justify-content: center;
+				width: 100%;
+				margin: 20px auto;
+				img {
+					display: block;
+					width: 33.3333%;
+					max-width: 100%;
+					height: auto;
+				}
+			}
+		}
+		.recruit > div {
+			padding-bottom: 50px;
+			padding-top: 50px;
+			margin: auto;
+			color: #666;
+			line-height: 1.8;
+			table {
+				font: 14px/25px 'Microsoft Yahei';
+				color: #888;
+				width: auto;
+				max-width: 100%;
+				background-color: transparent;
+			}
+		}
+	}
+}
+/********************* main 结束 *********************/
