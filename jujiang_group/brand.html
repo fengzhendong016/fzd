@@ -95,7 +95,7 @@
 						<ul>
 							<li><a href="##"><img src="images/group_industry_1.jpg" alt="">
 									<p>中国玻纤技术中心211工程</p>
-								</a></li>
+							</a></li>
 						</ul>
 					</div>
 				</div>
@@ -160,6 +160,18 @@
 		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/page.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
+			window.onload = function() {
+				/*
+					首页跳本页面，自动点击对应元素
+				*/
+				setTimeout(function() {
+					let url = location.href;
+					let urlIndex = url.indexOf("?");
+					if (urlIndex !== -1) $(".submenu .container > ul > li").eq(url.slice(urlIndex + 1, urlIndex + 2)).click();
+					$(".performance > div > p a").eq(url.slice(url.length - 1)).click()
+				}, 400)
+				
+			}
 			$(function() {
 				/*
 				  渲染公共建筑列表函数
